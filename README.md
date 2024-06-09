@@ -20,7 +20,6 @@ Welcome to the Customer Data Management System project! This web application all
 
 ## Photos
 
-<img width="480" alt="Screenshot 2024-06-08 at 9 56 18 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/8b5f7a67-b83b-41c3-aa1a-e088e39f1fa1">
 <img width="480" alt="Screenshot 2024-06-09 at 5 58 10 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/b8555dd2-c2c1-4c70-ac82-e9aebacc9be8">
 <img width="480" alt="Screenshot 2024-06-09 at 6 04 59 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/f09ee6ef-ba2d-420e-bf56-309ded63db89">
 <img width="480" alt="Screenshot 2024-06-09 at 6 05 06 PM"
