@@ -1,13 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: #daeeff;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media (max-width: 768px) {
+  .MuiTableCell-root {
+    padding: 8px;
+  }
+  
+  .MuiButton-root {
+    font-size: 0.75rem;
+  }
+  
+  .MuiTextField-root {
+    width: 100%;
+  }
+  
+  .MuiTablePagination-root {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .MuiTableCell-root {
+    padding: 10px;
+  }
+  
+  .MuiButton-root {
+    font-size: 0.875rem;
+  }
+  
+  .MuiTextField-root {
+    width: 80%;
+  }
+  
+  .MuiTablePagination-root {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .MuiTableCell-root {
+    padding: 12px;
+  }
+  
+  .MuiButton-root {
+    font-size: 1rem;
+  }
+  
+  .MuiTextField-root {
+    width: 60%;
+  }
+  
+  .MuiTablePagination-root {
+    font-size: 1rem;
+  }
 }
