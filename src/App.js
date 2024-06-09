@@ -61,6 +61,9 @@ const styles = (theme) => ({
     backgroundColor: "#2B61FF",
     color: "white",
     fontWeight: "bold",
+    "&:hover": {
+      backgroundColor: "#2B61FF",
+    },
     [theme.breakpoints.down("sm")]: {
       width: "100%",
     },
