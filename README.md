@@ -20,22 +20,22 @@ Welcome to the Customer Data Management System project! This web application all
 
 ## Photos
 
-<img width="280" alt="Screenshot 2024-06-09 at 5 58 10 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/b8555dd2-c2c1-4c70-ac82-e9aebacc9be8">
-<img width="280" alt="Screenshot 2024-06-09 at 6 04 59 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/f09ee6ef-ba2d-420e-bf56-309ded63db89">
-<img width="280" alt="Screenshot 2024-06-09 at 6 05 06 PM"
-<img width="280" alt="Screenshot 2024-06-09 at 6 06 39 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/713459d6-89e8-44dd-beb4-d5481edfc32e">
-<img width="280" alt="Screenshot 2024-06-09 at 6 06 46 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/80799f2c-94aa-4a20-bc64-3e682a7da27e">
-<img width="280" alt="Screenshot 2024-06-09 at 6 06 54 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/dd877bb2-5ccc-4231-be37-d5bbb8155032">
-<img width="280" alt="Screenshot 2024-06-09 at 6 07 15 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/514e7200-5cbc-4f53-a6d3-1066b82afc5d">
-<img width="280" alt="Screenshot 2024-06-09 at 6 07 42 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/df137a6b-2ea3-444f-8557-7f0a57eb2076">
-<img width="280" alt="Screenshot 2024-06-09 at 6 07 49 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/26d893a0-e9e4-4971-9295-7174e4dfa116">
-<img width="280" alt="Screenshot 2024-06-09 at 6 07 55 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/6c1c179f-cebf-4ff1-8354-a19730ec25e1">
-<img width="280" alt="Screenshot 2024-06-09 at 6 08 02 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/ad8ee38c-b8f5-4dcd-a69a-be74ebaaf0ba">
-<img width="280" alt="Screenshot 2024-06-09 at 6 06 32 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/6121f370-a65d-4db2-a533-fc8dac3b9c6b">
-<img width="280" alt="Screenshot 2024-06-09 at 6 06 32 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/86edbd83-c800-4661-9fed-405e34d25c0e">
-<img width="280" alt="Screenshot 2024-06-09 at 6 05 15 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/cbc1c30b-f521-4d4e-9ac2-2c1ef2a4179f">
-<img width="280" alt="Screenshot 2024-06-09 at 6 06 14 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/e24c71c6-6a6e-47ab-ab9c-d81ae607fd62">
-<img width="280" alt="Screenshot 2024-06-09 at 6 06 22 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/db381666-ee21-4f41-ab82-444e5278520e">
+<img width="360" alt="Screenshot 2024-06-09 at 5 58 10 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/b8555dd2-c2c1-4c70-ac82-e9aebacc9be8">
+<img width="360" alt="Screenshot 2024-06-09 at 6 04 59 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/f09ee6ef-ba2d-420e-bf56-309ded63db89">
+<img width="360" alt="Screenshot 2024-06-09 at 6 05 06 PM"
+<img width="360" alt="Screenshot 2024-06-09 at 6 06 39 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/713459d6-89e8-44dd-beb4-d5481edfc32e">
+<img width="360" alt="Screenshot 2024-06-09 at 6 06 46 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/80799f2c-94aa-4a20-bc64-3e682a7da27e">
+<img width="360" alt="Screenshot 2024-06-09 at 6 06 54 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/dd877bb2-5ccc-4231-be37-d5bbb8155032">
+<img width="360" alt="Screenshot 2024-06-09 at 6 07 15 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/514e7200-5cbc-4f53-a6d3-1066b82afc5d">
+<img width="360" alt="Screenshot 2024-06-09 at 6 07 42 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/df137a6b-2ea3-444f-8557-7f0a57eb2076">
+<img width="360" alt="Screenshot 2024-06-09 at 6 07 49 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/26d893a0-e9e4-4971-9295-7174e4dfa116">
+<img width="360" alt="Screenshot 2024-06-09 at 6 07 55 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/6c1c179f-cebf-4ff1-8354-a19730ec25e1">
+<img width="360" alt="Screenshot 2024-06-09 at 6 08 02 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/ad8ee38c-b8f5-4dcd-a69a-be74ebaaf0ba">
+<img width="360" alt="Screenshot 2024-06-09 at 6 06 32 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/6121f370-a65d-4db2-a533-fc8dac3b9c6b">
+<img width="360" alt="Screenshot 2024-06-09 at 6 06 32 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/86edbd83-c800-4661-9fed-405e34d25c0e">
+<img width="360" alt="Screenshot 2024-06-09 at 6 05 15 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/cbc1c30b-f521-4d4e-9ac2-2c1ef2a4179f">
+<img width="360" alt="Screenshot 2024-06-09 at 6 06 14 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/e24c71c6-6a6e-47ab-ab9c-d81ae607fd62">
+<img width="360" alt="Screenshot 2024-06-09 at 6 06 22 PM" src="https://github.com/nilaysrivastava/ClientTrack-Dashboard/assets/139038819/db381666-ee21-4f41-ab82-444e5278520e">
 
 
 ## Getting Started
