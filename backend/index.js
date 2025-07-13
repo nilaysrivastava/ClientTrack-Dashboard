@@ -1,23 +1,32 @@
-// Load environment variables first
 require("dotenv").config();
 
 const express = require("express");
 const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 4000;
-
 const mongoDB = require("./db");
+
 mongoDB();
+
+// --- START OF CHANGES ---
 
 const allowedOrigin = process.env.FRONTEND_URL || "http://localhost:3000";
 
-app.use(
-  cors({
-    origin: allowedOrigin,
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
-  })
+// This new log will show us EXACTLY what URL is being used by the server.
+console.log(
+  `CORS requests will be allowed from the following origin: ${allowedOrigin}`
 );
+
+const corsOptions = {
+  origin: allowedOrigin,
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  credentials: true,
+  optionsSuccessStatus: 204,
+};
+
+app.use(cors(corsOptions));
+
+// --- END OF CHANGES ---
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
