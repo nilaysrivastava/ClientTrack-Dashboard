@@ -108,7 +108,7 @@ const App = ({ classes }) => {
 
   return (
     <Container className={classes.container}>
-      <div className={classes.title}>Data Table</div>
+      <div className={classes.title}>Client Track - Dashboard</div>
       <Paper elevation={3} className={classes.paper}>
         <div className={classes.searchAndButton}>
           <TextField
