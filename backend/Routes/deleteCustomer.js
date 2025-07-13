@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Customer = require("../models/customerSchema");
+const Customer = require("../Models/customerSchema");
 
 router.delete("/deleteCustomer/:id", async (req, res) => {
   try {
