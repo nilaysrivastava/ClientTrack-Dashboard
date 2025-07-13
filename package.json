@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "ajv": "^8.16.0",
     "axios": "^1.10.0",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "mdb-react-ui-kit": "^8.0.0",
     "mongodb": "^6.7.0",
