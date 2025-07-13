@@ -9,7 +9,7 @@ import {
   useMediaQuery,
   useTheme,
 } from "@material-ui/core";
-import axios from "axios";
+import api from "../api";
 
 const AddCustomerModal = ({ open, onClose }) => {
   const [formData, setFormData] = useState({
@@ -33,10 +33,7 @@ const AddCustomerModal = ({ open, onClose }) => {
 
   const handleSave = async () => {
     try {
-      const response = await axios.post(
-        "http://localhost:4000/api/createCustomer",
-        formData
-      );
+      const response = await api.post("/createCustomer", formData);
       if (response.status === 201) {
         onClose();
         window.location.reload();

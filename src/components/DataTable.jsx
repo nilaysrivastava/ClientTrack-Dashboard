@@ -20,9 +20,9 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import InfoIcon from "@material-ui/icons/Info";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
-import axios from "axios";
 import ViewModal from "./ViewModal";
 import EditModal from "./EditModal";
+import api from "../api";
 
 const DataTable = ({ searchQuery }) => {
   const [data, setData] = useState([]);
@@ -38,30 +38,12 @@ const DataTable = ({ searchQuery }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await axios.get(
-          "http://localhost:4000/api/displayCustomers"
-        );
+        const result = await api.get("/displayCustomers");
         setData(result.data);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
-
-    fetchData();
-  }, []);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await axios.get(
-          "http://localhost:4000/api/displayCustomers"
-        );
-        setData(result.data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
     fetchData();
   }, [searchQuery]);
 
@@ -89,17 +71,15 @@ const DataTable = ({ searchQuery }) => {
   };
 
   const handleDelete = async () => {
-    await axios.delete(
-      `http://localhost:4000/api/deleteCustomer/${currentRow._id}`
-    );
+    await api.delete(`/deleteCustomer/${currentRow._id}`);
     setData(data.filter((item) => item._id !== currentRow._id));
     handleMenuClose();
   };
 
   const handleEditSave = async (updatedRow) => {
     try {
-      const result = await axios.put(
-        `http://localhost:4000/api/updateCustomer/${updatedRow._id}`,
+      const result = await api.put(
+        `/updateCustomer/${updatedRow._id}`,
         updatedRow
       );
       setData(

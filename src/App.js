@@ -4,7 +4,7 @@ import AddIcon from "@material-ui/icons/Add";
 import DataTable from "./components/DataTable";
 import AddCustomerModal from "./components/AddCustomerModal";
 import { withStyles } from "@material-ui/core/styles";
-import axios from "axios";
+import api from "./api";
 
 const styles = (theme) => ({
   notchedOutline: {
@@ -86,9 +86,7 @@ const App = ({ classes }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await axios.get(
-          "http://localhost:4000/api/displayCustomers"
-        );
+        const result = await api.get("/displayCustomers");
         setData(result.data);
       } catch (error) {
         console.error("Error fetching data:", error);
