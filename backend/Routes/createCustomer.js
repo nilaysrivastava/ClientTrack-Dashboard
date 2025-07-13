@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Customer = require("../models/customerSchema");
+const Customer = require("../Models/customerSchema");
 
 router.post("/createCustomer", async (req, res) => {
   try {
